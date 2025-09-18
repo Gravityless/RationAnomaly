@@ -25,3 +25,8 @@ fastapi
 latex2sympy2_extended
 math_verify
 tensorboard
+torch
+re
+typing
+rouge
+nltk
