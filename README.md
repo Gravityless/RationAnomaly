@@ -193,7 +193,18 @@ The trained model demonstrates improved performance on log anomaly detection tas
 
 ## 🤝 Contributing
 
-This codebase is associated with our research paper on reinforcement learning for log anomaly detection. When using this code, please cite [our work](https://github.com/Gravityless/RationAnomaly.git).
+This codebase is associated with our research paper on reinforcement learning for log anomaly detection. When using this code, please cite [our work](https://arxiv.org/abs/2509.14693).
+```
+@misc{rationanomaly,
+      title={RationAnomaly: Log Anomaly Detection with Rationality via Chain-of-Thought and Reinforcement Learning}, 
+      author={Song Xu and Yilun Liu and Minggui He and Mingchen Dai and Ziang Chen and Chunguang Zhao and Jingzhou Du and Shimin Tao and Weibin Meng and Shenglin Zhang and Yongqian Sun and Boxing Chen and Daimeng Wei},
+      year={2025},
+      eprint={2509.14693},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2509.14693}, 
+}
+```
 
 ## 📄 License
 
