@@ -1,0 +1,1352 @@
+[
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> exited normally with exit code <*>",
+        "rectified": "normal",
+        "label": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "While reading FanModule caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "While reading FanModule caught java.lang.IllegalStateException: while executing I2C Operation caught java.net.SocketException: Broken pipe",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> Z+",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> error detected in EDRAM bank <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ciod: sendMsgToDebugger: error sending PROGRAM_EXITED message to debugger.",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "parity error in read queue <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "idoproxydb hit ASSERT condition: ASSERT expression=!(nMsgLen > 0x10000) Source file=idomarshalerio.cpp Source line=1929 Function=int IdoMarshalerRecvBuffer::ReadBlock(IdoMsg::IdoMsgHdr*&)",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "invalid operation exception (int cnvt)...0",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "rts: bad message header: cpu <*> invalid <*> <*> <*> <*> <*> PSR1=00000000 <*> PIXF=00000007",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ddr: Unable to steer rank=0, <*> - rank is already steering symbol <*> Due to multiple symbols being over the correctable e",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ciod: Unexpected eof at line <*> of node map file <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ciod: Error <*> node map <*> <*> <*> <*> <*> <*> <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ciod: Error loading ../homme/build.Linux/preqx -n 1800: invalid or missing program image, No such file or directory",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Temperature Over Limit on link card",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Torus non-recoverable error DCRs follow.",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Hardware monitor caught java.lang.IllegalStateException: while executing I2C Operation caught java.net.SocketException: Broken pipe and is stopping",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> java.lang.IllegalStateException: while executing <*> Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object <*> with image version <*> and card type <*> is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = <*> Reply Sequence Number = <*> timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 2, Actual Op Reply = <*> Expected Sync Command = <*> Actual Sync Reply = <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "number of lines with parity errors written to L3 <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> is not fully functional",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Node card is not fully functional",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> C <*> <*> <*> <*> Z-",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ciod: Error creating node map from file <*> <*> <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Hardware monitor caught java.net.SocketException: Broken pipe and is stopping",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ciod: Error loading <*> invalid or missing program image, Permission denied",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "rts tree/torus link training failed: wanted: <*> C X+ X- Y+ Y- Z+ Z- got: <*> C <*> <*> <*> <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "While reading FanModule caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ciod: Missing or invalid fields on line 1 of node map file <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "While reading FanModule caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ciod: Error loading <*> invalid or missing program image, No such file or directory",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "While initializing node card, ido with LP of <*> caught java.lang.IllegalStateException: IDo is not in functional state -- currently in state COMMUNICATION_ERROR",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Bad cable going into LinkCard <*> Jtag <*> Port <*> - <*> bad wires",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "While initializing service card iDo with LP of <*> caught java.io.IOException: Could not contact iDo with <*> and <*> because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for <*> is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = 0, Reply Sequence Number = -1, timedOut = true, retries = 200, timeout = 1000, Expected Op Command = 5, Actual Op Reply = -1, Expected Sync Command = 10, Actual Sync Reply = -1)",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "divide-by-zero <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Problem communicating with service card, ido chip: <*> java.io.IOException: Could not find EthernetSwitch on port:address 1:136",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ Z- got: C X+ Y- Z-",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Problem communicating with service card, ido chip: <*> java.lang.IllegalStateException: IDo is not in functional state -- currently in state COMMUNICATION_ERROR",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ciod: cpu 0 at treeaddr <*> sent unrecognized message 0xffffffff",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "idoproxydb hit ASSERT condition: ASSERT expression=!(RecvMsgHdr.ulLen > 0x10000) Source file=idomarshalerio.cpp Source line=387 Function=virtual int IdoMarshalerIo::RunRecv()",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "rts tree/torus link training failed: wanted: <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Expected 10 active FanModules, but found 9 ( Found J300 J301 J302 J303 J304 <*> <*> <*> <*> ).",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "without cmapeerd you #43# be",
+        "rectified": "normal",
+        "label": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Cannot MOUNTPROG RPC: RPC: Port mapper failure - RPC: Timed out",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "NOQUEUE: SYSERR(root): <*> line <*> fileclass: cannot open <*> Group writable directory",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Bad UMNT RPC: RPC: Timed out",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "mount(nfs): nfs: mount failure <*> on <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "fatal: #160#(1350): Error writing message file",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "mount: <*> failed, reason given by server: Permission denied",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Additional sense indicates Internal target failure",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Failed password for illegal user Administrator from 172.30.80.241 port 45217 ssh2",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Bailing out due to errors encountered while running the pre-flight check. Run Nagios from the command line with the -v option to verify your config before restarting. <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> to=<#13#-#14#@#11#>, orig_to=<root>, relay=none, <*> status=deferred (connect to #15#[#16#]: No route to host)",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "fatal: Timeout before authentication for <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Warning: we failed to resolve data source name <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "mount: RPC: Remote system error - Connection timed out",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "FATAL ERROR: Creating listener failed: port 22 probably already in use!",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "SERVICE ALERT: <*> code of 127 is out of bounds - plugin may be missing)",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "/etc/mail/submit.cf: line 528: fileclass: cannot open '/etc/mail/trusted-users': Group writable directory",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Failed password for #18# from #19# port <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "insmod: insmod iptable_filter failed",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "fatal: open /etc/postfix/main.cf: Permission denied",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "warning: <*> bad command startup -- throttling",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": ">> mount: RPC: Remote system error - No route to host",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "mtrr: probably your BIOS does not setup all CPUs",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "LustreError: <*> <*> <*> <*> <*> 0 0: 0000000000000000",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "free(): invalid pointer <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "fatal: file /etc/postfix/main.cf: parameter default_privs: unknown user name value: nobody",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Error: Service specified in service dependency for service 'Website <*> on host 'nt1' is not defined anywhere!",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "nfs_notify_change: revalidate failed, error=-512",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "GSSAPI delegation failed for <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ERROR: bond is empty",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ERROR: unexpected parameter[335] 'WCVIOLATIONACTION' detected",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "PAM transaction resulted in error.",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "LustreError: <*> @@@ timeout (sent <*> <*> <*> <*> lens <*> ref 2 fl <*> rc 0/0",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Error: Service dependency definition for service 'Website <*> on host 'nt1' is circular (it depends on itself)!",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Key exchange failed in remote: 'Key exchange failed.'",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Error: Cannot open resource file '/etc/nagios/resource.cfg' for reading!",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Error: Failed to grab configuration information for retention data",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "LustreError: <*> Invoked upcall /usr/opt/hpls/bin/hpls_upcall FAILED_IMPORT <*> <*> <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "LustreError: <*> Unknown send error",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "fatal: the Postfix mail system is not running",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Unknown error <*> <*> in job_start_error from node <*> <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> Invalid argument",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "LustreError: <*> obd mem max: 1614032 leaked: 8200",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Local disconnected: Illegal protocol version.",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "LustreError: <*> @@@ type == PTL_RPC_MSG_ERR, err == <*> <*> <*> <*> lens <*> ref 1 fl <*> rc <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "GM: LANAI[0]: LANai detected a transient PARITY error in board SRAM at rtc time = 0x00b64ccc4",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "WARNING: Setting tty modes failed: Invalid argument",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "EXT2-fs error (device sd(8,16)): read_inode_bitmap: Cannot read inode bitmap - block_group = 0, inode_bitmap = 62",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "LustreError: <*> Failed to obtain local id",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "PANIC: segmentation violation! sleeping for 30 seconds.",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "SCSI disk error : host 0 channel 0 id 0 lun 2 return code = 8000002",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "LustreError: <*> Portals memory leaked: 2064 bytes",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ERROR: cannot open user interface socket on port 42559",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ttyS1: ioctl: Input/output error",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Error: Dependent service specified in service dependency for service 'Website <*> on host 'nt1' is not defined anywhere!",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "error: <*> failed: Group writable directory",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Mounting NFS filesystems: <*>",
+        "label": "abnormal",
+        "rectified": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Local disconnected: Message authentication check fails.",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "GM: Could not open port because LANai is not running.",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": ">> mount: <*> failed, reason given by server: Permission denied",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Error: Illegal request -- (Sense key=0x05)",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> to=<#13#-#14#@#11#>, orig_to=<root>, relay=none, <*> status=deferred (connect to #15#[#16#]: server dropped connection without sending the initial greeting)",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "LAuS error - <*> - <*> (19) <*> No such device",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Failed to lookup user 'ntp'.",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "WARNING: cannot load checkpoint file '/var/spool/maui/maui.ck'",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "connect to #15#[#16#]: No route to host (port 25)",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "tm_eof, no matching task found",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Did not receive identification string from 172.30.80.252",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "PCI: 00:1d.7 PCI cache line size set incorrectly (0 bytes) by BIOS/FW.",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "hm, page <*> reserved twice.",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "hda: packet command error: status=0x51 { DriveReady SeekComplete Error }",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "My unqualified host name <*> unknown; sleeping for retry",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> <*> NIC Link is Down",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "HOST ALERT: <*> output!)",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "LustreError: <*> Result of send stxd <*> is [target node was unreachable]",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> server <*> not responding, <*> <*>",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Protocol error in local: 'Received packet with wrong granularity.'",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Idle timeout exceeded.",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "nfssvc: Cannot allocate memory",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "You probably have a hardware problem with your RAM chips",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "WARNING: Failed to fetch remote ip address.",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "scsi: unknown type 12",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "modprobe: Can't locate module <*>",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "No correct mountpoint specified.",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ciod: Error loading -mode VN: invalid or missing program image, No such file or directory",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "While setting fan speed caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "capture first <*> <*> error address..0",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Error sending packet on tree network, packet at address 00088480 is not aligned",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: <*> <*> <*> <*> <*> <*> <*>",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "rts internal error",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ciod: LOGIN <*> failed: No such file or directory",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> correctable errors exceeds threshold (iar <*> lr <*>",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ciod: Error loading <*> program image too big, <*> > <*>",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ciod: Error creating node map from file my_map.txt: No such file or directory",
+        "label": "normal",
+        "rectified": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> <*> <*> socket closed",
+        "rectified": "normal",
+        "label": "abnormal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "invalid <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Exception Syndrome Register: <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "exception syndrome register: <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> <*> failed",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "number of correctable errors detected in L3 <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "dear <*> <*> RAS KERNEL INFO Kernel detected <*> integer alignment exceptions <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "underflow <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "DDR failing info register: <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ddr: excessive soft failures, consider replacing the card",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "invalid operation exception <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "miscompare............0",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "parity error in <*> <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> double-hummer alignment exceptions",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "byte ordering exception.....................0",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ciod: In packet from node <*> <*> message code 2 is not 3 or 4294967295 <*> <*> 00000001 00000000)",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "NodeCard VPD is corrupt",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ciod: Message code <*> is not <*> or 4294967295",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Current sd08:10: sense key Hardware Error",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "data_thread() got not answer from any <*> <*> datasource",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "sd: sent only -107 bytes of 132 - shutting down socket",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "RRD_update (/var/lib/ganglia/rrds/Admin/#17#.#11#/temp_proc1.rrd): conversion of '-u' to float not complete: tail '-u'",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "connection lost: 'Connection <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Id \"S0\" respawning too fast: disabled for 5 minutes",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "connect from #1074# to callit(mountd): request not forwarded",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "sh: line 1: /dev/pts/0: No such file or directory",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "im_eof, job <*> lost connection to MS on <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Aborting journal on device cciss0(104,2).",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "cciss0(104,2): orphan cleanup on readonly fs",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> to=<#13#-#14#@#11#>, orig_to=<root>, relay=#15#[#16#], <*> status=deferred (lost connection with #15#[#16#] while sending MAIL FROM)",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "failed to mount <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "00:1d.7 PCI cache line size set incorrectly (0 bytes) by BIOS/FW.",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> <*> relay=none, <*> status=deferred (Name service error for name=#1202# type=MX: Host not found, try again)",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "connect to #15#[#16#]: server dropped connection without sending the initial greeting (port 25)",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Connection refused (111) in contact_sched, Could not contact Scheduler - port 15004",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "00010000a60000 has CHECK CONDITION, sense key = 0x3",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "I/O error: dev 08:10, sector <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "journal_bmap_Rsmp_36fd301f: journal block not found at offset 7180 on cciss0(104,2)",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "divert: not allocating divert_blk for non-ethernet device tunl0",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Agent forwarding request denied in configuration.",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "send_arp uses obsolete (PF_INET,SOCK_PACKET)",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "The failed \"Start/Stop Unit\" packet command was:",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "tftp: client does not accept options",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "insmod: a module named iptable_filter already exists",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "GM: gm_linux_kvirt_to_phys: PTE not present",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "RPC: buffer allocation failed for task 000001005c701b08",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": ">> mount: RPC: Timed out",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "spurious 8259A interrupt: IRQ7.",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "im_request, event <*> taskid 1 not found",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": ">> mount: RPC: Remote system error - Connection timed out",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> <*> relay=none, <*> status=deferred (connect to #1202#[#1203#]: Connection timed out)",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "/var/log/messages: Input/output error",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "B7964A65D1: <*> <*> relay=local, delay=0, status=bounced (unknown user: <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "gethostbyname error for <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "im_request, bad connect from <*> - unauthorized (okclients: <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Connection refused (111) in TMomFinalizeChild, cannot open qsub sock",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "EXT2-fs: unable to read superblock",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "pam_timestamp: `/' permissions are lax",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Device 00:1f.1 not available because of resource collisions",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> to=<#13#-#14#@#11#>, orig_to=<root>, relay=none, <*> status=deferred (connect to #15#[#16#]: Connection refused)",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> : uid <*> does not exist in the passwd file! ; <*> ; PWD=unknown ; USER=root ; <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Log Daemon:[3605]: Physical drive failed: Box 2 Bay <*> of chassis .",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "POSSIBLE SPOOF/ATTACK ATTEMPT!",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "shpnfs,sadmin2 has non-inet addr",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "rpc-srv/tcp: nfsd: sent only -107 bytes of <*> - shutting down socket",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "fatal: mm_request_send: write",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "can't read sid for pid <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Possible 'ntpdx' exploit from #1074#:3160 (possibly spoofed)",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "initialize_kbd: Keyboard reset failed, no ACK",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Network is unreachable (101) in contact_sched, Could not contact Scheduler - port 15004",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "synchronisation lost",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "mtrr: your CPUs had inconsistent fixed MTRR settings",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> ORPHAN (no passwd entry)",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> user <*> does not exist",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "ext3_abort called.",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "LustreError: <*> Target <*> disconnect error -4",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "exportfs: shpnfs,sadmin2 has non-inet addr",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "GM: LANAI[0]: LANai detected a PARITY error in board SRAM at rtc time = <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "NET unregister event not supported",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "RPC: tcp_data_ready socket info not found!",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "scan_for_exiting, cannot chdir to user home directory",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Connection reset by peer (104) in TMomFinalizeChild, cannot get termtype",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Kerberos authentication as <*> denied for <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "LustreError: <*> OBD device <*> <*> has refcount 2",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "System halted.",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "<*> to=<#13#-#14#@#11#>, orig_to=<root>, relay=none, <*> status=deferred (connect to <*> <*> <*> <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Error, getting detailed hw info for node, caught java.io.IOException: Problems with the chip, clear all resets",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "Error getting detailed hw info for node, caught java.io.IOException: Problems with the chip, could not <*> <*> <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    },
+    {
+        "instruction": "Classify the given log entries into normal and abnormal categories.",
+        "input": "idoproxydb hit ASSERT condition: ASSERT <*> Source <*> Source <*> Function=int <*> <*>",
+        "rectified": "abnormal",
+        "label": "normal"
+    }
+]

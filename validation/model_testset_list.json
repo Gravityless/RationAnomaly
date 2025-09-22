@@ -1,0 +1,18 @@
+{
+    "models": [
+        "Llama-2-7b",
+        "LogPrompt"
+    ],
+    "model_paths": {
+        "Llama-2-7b": "../models/llama-2-7b-chat-hf",
+        "LogPrompt": "../models/LogPrompt"
+    },
+    "testsets": [
+        "BGL",
+        "Spirit"
+    ],
+    "testset_paths": {
+        "BGL": "../datasets/testsets/BGL.json",
+        "Spirit": "../datasets/testsets/Spirit.json"
+    }
+}
